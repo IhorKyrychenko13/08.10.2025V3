@@ -9,6 +9,9 @@ private:
     double price;
     int itemNumber;
     static int counter;
+    static const int MIN_SIZE = 40;
+    static const int MAX_SIZE = 60;
+    static const int DEFAULT_SIZE = 42;
 public:
     Overcoat(std::string name, std::string type, int size, double price);
     std::string getType() const;
